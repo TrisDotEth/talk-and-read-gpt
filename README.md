@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Talk and Read with ChatGPT
 
 So it's super basic at the mo. But should hopefully still work
 
