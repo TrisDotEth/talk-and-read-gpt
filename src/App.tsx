@@ -47,7 +47,7 @@ function App() {
         .post('https://api.openai.com/v1/audio/transcriptions', formData, {
           headers: {
             Authorization:
-              'Bearer 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',
+              'Bearer **KEYHERE**',
             'Content-Type': 'multipart/form-data',
           },
         })
