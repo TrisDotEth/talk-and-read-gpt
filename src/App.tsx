@@ -93,27 +93,27 @@ function App() {
   }
 
 
+  const paragraphStyles = {
+    display: 'none',
+  };
+
   return (
     <div>
       <div>
+        <div style={paragraphStyles}>
+
+        
         <ReactMic
           record={isRecording}
           onData={onData}
           onStop={onStop}
           mimeType="audio/mp3"
+          className="react-mic"
         />
-        <button onClick={startRecording}>Start Recording</button>
-        <button onClick={stopRecording}>Stop Recording</button>
-        {blobURL && (
-          <div>
-            <h1>{blobURL}</h1>
-            <audio src={blobURL} controls />
-            <button onClick={sendToOpenAI}>Send to OpenAI1111111111111</button>
-          </div>
-        )}
-      </div>
-      <h1>AI reply</h1>
-      <p>{airesponse}</p>
+        </div>
+        <button onClick={startRecording}>Start </button>
+        <button onClick={stopRecording}>Stop </button>
+    </div>
     </div>
   );
 }

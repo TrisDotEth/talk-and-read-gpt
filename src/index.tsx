@@ -10,10 +10,8 @@ globalStyles.innerHTML = `
   #${rootElement.id} {
   position: fixed;
   left: 50%;
-  top: 0;
-  width: 300px;
-  height: 30vh;
-  background: #eeeeee;
+  bottom: 0;
+  background: #ffffff;
   border-right: 1px solid #c2c2c2;
   z-index: 999999999;
   }
